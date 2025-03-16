@@ -80,3 +80,30 @@ You can use Graphql;
 When you finish your challenge, after forking a repository, you **must** open a pull request to our repository. There are no limitations to the implementation, you can follow the programming paradigm, modularization, and style that you feel is the most appropriate solution.
 
 If you have any questions, please let us know.
+
+
+## Requisitos previos
+
+Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
+
+- Node.js
+- Docker
+- Docker Compose
+
+## Ejecutar con Docker Compose
+
+Para ejecutar los servicios dentro de contenedores Docker, utiliza el archivo `docker-compose.yml` incluido en el proyecto.
+
+### Construir y levantar los contenedores:
+
+```bash
+docker-compose up --build -d
+```
+
+## Acceso a los servicios
+
+- API de transacciones: [http://localhost:3000](http://localhost:3000)
+- API de antifraude: [http://localhost:3001](http://localhost:3001)
+
+## Notas
+- Puedes modificar los puertos en el `docker-compose.yml` si es necesario.
