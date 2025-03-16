@@ -102,7 +102,7 @@ docker-compose up --build -d
 
 ## Acceso a los servicios
 
-- API de transacciones: [http://localhost:3000](http://localhost:3000)
+- API de transacciones: [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
 - API de antifraude: [http://localhost:3001](http://localhost:3001)
 
 ## Notas
